@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bboys</title>
+    <script type="module" crossorigin src="/assets/index-CEIh_b03.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div style="display:none">
+      <div id="turntable" style="width: 100px; height: 100px; background-color: lightblue">
+      </div>
+
+      <table id="sequencer">
+        <tr>
+          <td></td>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
+        <tr>
+          <th>Skydive</th>
+          <td>
+            <input type="radio" name="0" value="Skydive" checked>
+          </td>
+          <td>
+            <input type="radio" name="1" value="Skydive">
+          </td>
+          <td>
+            <input type="radio" name="2" value="Skydive">
+          </td>
+          <td>
+            <input type="radio" name="3" value="Skydive">
+          </td>
+        </tr>
+        <tr>
+          <th>Stack</th>
+          <td>
+            <input type="radio" name="0" value="Stack">
+          </td>
+          <td>
+            <input type="radio" name="1" value="Stack" checked>
+          </td>
+          <td>
+            <input type="radio" name="2" value="Stack">
+          </td>
+          <td>
+            <input type="radio" name="3" value="Stack">
+          </td>
+        </tr>
+        <tr>
+          <th>Strong</th>
+          <td>
+            <input type="radio" name="0" value="Strong">
+          </td>
+          <td>
+            <input type="radio" name="1" value="Strong">
+          </td>
+          <td>
+            <input type="radio" name="2" value="Strong" checked>
+          </td>
+          <td>
+            <input type="radio" name="3" value="Strong" checked>
+          </td>
+        </tr>
+      </table>
+
+      <br/><br/><br/>
+    </div>
+
+    <div id="smearKnobs" style="display: none">
+      <input
+        name="rush"
+        type="range"
+        value="0"
+        min="0"
+        max="3"
+        step="any"
+      />
+      <input
+        name="smearWidth"
+        type="range"
+        value="1"
+        min="0"
+        max="3"
+        step="any"
+      />
+      <input
+        name="easeWeight"
+        type="range"
+        value="0"
+        min="0"
+        max="1"
+        step="any"
+      />
+      <input
+        name="vertRot"
+        type="range"
+        value="2"
+        min="1.57"
+        max="3.14"
+        step="any"
+      />
+      <input
+        name="horRot"
+        type="range"
+        value="-2.1"
+        min="-3.14"
+        max="0"
+        step="any"
+      />
+    </div>
+
+
+  </body>
+</html>
